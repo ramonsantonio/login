@@ -25,6 +25,8 @@ section#login > div#img{
 section#login > div#formulario{
     float: right;
     width: 50%;
+    margin: 135px 0px ;
+
     }
     
 }
@@ -45,6 +47,11 @@ section#login > div#formulario{
     section#login > div#formulario{
         float: right;
         width: 55%;
+        margin: 135px 0px ;
     
+    }
+
+    formulario{
+        margin: center left;
     }
 }
