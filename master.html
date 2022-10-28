@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
 </head>
@@ -20,16 +21,21 @@
             <div id="formulario">
 
                 <h1>Login</h1>
-                <p> Seja bem-vindo(a)</p>
+                <p> Seja bem-vindo(a) </p>
+
+                <p>
+                    Faça o Login para acessa<br> a sua conta, ou cadastre-se.
+
+                </p>
 
                 <form action="login.php" method="post">
-                    <div class="campo">
+                    <div id="campo">
                         <label for="ilogin">Login</label>
                         <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" required>
                         
                     </div>
 
-                    <div class="campo">
+                    <div id="campo">
                         <label for="isenha">Senha</label>
                         <input type="password" name="senha" id="isenha" placeholder="Sua senha" required>
                         
@@ -43,6 +49,7 @@
     </main>
 
     <footer>
+        <h1>Feito por Ramon Antonio</h1>
         
     </footer>
     
