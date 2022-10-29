@@ -92,10 +92,13 @@ input{
 a{
     color: black;
     text-decoration: none;
-    border-style: solid;
     background-color: rgb(241, 240, 240);
-    border-radius: 2px;
     font-size: 0.9em;
+    border: 1px solid;
+    border-radius: 3px;
+    box-sizing: px;
+    padding: 2.1px;
+
 }
 
 footer{
@@ -110,3 +113,24 @@ footer{
 footer h1{
     text-align: center;
 }
+
+input[type=submit]:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+div#campo > input[type=password]:hover{
+    background-color: rgba(0, 0, 255, 0.158);
+    color: white;
+}
+
+div#campo > input[type=email]:hover{
+    background-color: rgba(0, 0, 255, 0.158);
+    color: white;
+}
+
