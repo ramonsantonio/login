@@ -89,6 +89,15 @@ input{
     height: 25px;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    background-color: rgb(241, 240, 240);
+    border-radius: 2px;
+    font-size: 0.9em;
+}
+
 footer{
     color: white;
     text-align: center;
